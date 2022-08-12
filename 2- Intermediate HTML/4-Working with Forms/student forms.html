@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Student form">
+    <title>Student forms</title>
+</head>
+
+<body>
+    <h1>Form Basic Elements:</h1>
+    <form>
+        <fieldset>
+            <legend>Input box Elements</legend>
+            <p>
+                <lebel for="input_text">Text:</lebel>
+                <input type="text" id="input_text" placeholder="Text" name="Text">
+            </p>
+            <p>
+                <lebel for="input_email">Email:</lebel>
+                <input type="email" id="input_type" placeholder="text@email.com" name="Email">
+            </p>
+            <p>
+                <label for="input_password">Password:</label>
+                <input type="password" id="input_password" placeholder="Password" name="password">
+            </p>
+            <p>
+                <label for="input_number">Number:</label>
+                <input type="number" id="input_number" placeholder="Number" name="number">
+            </p>
+            <p>
+                <label for="Phone_number">Phone number</label>
+                <input type="tel" id="Phone_number" placeholder="Phone number" name="Phone number">
+            </p>
+            <p>
+                <label for="input_url">URL:</label>
+                <input type="url" id="input_url" placeholder="https://somesite.com" name="url" </p>
+                <p>
+                    <label for="input_search">Search</label>
+                    <input type="search" id="input_search" placeholder="search" name="search">
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select from element</legend>
+            <p>
+                <label for="select">Select</label>
+                <select id="Select">
+                    <optgroup label="Option group1"> 
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                    </optgroup>
+                    <optgroup label="Option group2">
+                        <option>Option 5</option>
+                        <option>Option 6</option>
+                        <option>Option 7</option>
+                        <option>Option 8</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Radio button Element</legend>
+            <p>
+                <label for="radio_button">Option 1:</label>
+                <input type="radio" id="radio" name="radio" >
+            </p>
+            <p>
+                <label for="radio_button">Option 1:</label>
+                <input type="radio" id="radio button" name="radio">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox Element</legend>
+            <p>
+                <label for="checkbox_element">Check Box 1:</label>
+                <input type="checkbox" id="checkbox_element" name="checkbox">
+
+
+                <label for="checkbox_element">Check Box 2:</label>
+                <input type="checkbox" id="checkbox_element" name="checkbox">
+
+
+                <label for="checkbox_element">Check Box 3:</label>
+                <input type="checkbox" id="checkbox_element" name="checkbox">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Text area</legend>
+            <p>
+                <label for="extarea">Your comment here</label><br>
+                    <textarea id="textarea" rows="5" cols="20" placeholder="write your comment">
+                    </textarea>
+            </p>
+        </fieldset>
+         <input type="submit" id="submit" name="submit">
+
+    </form>
+
+</body>
+
+</html>
